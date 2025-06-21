@@ -8,18 +8,10 @@ import Termo1 from './controlli/termometro';
 import Termo2 from './controlli/termometro2';
 import RotationIndicator from './controlli/rotazione';
 import Interruttore from './controlli/switch';
-// import nastro1 from './immagini/nastro_metalli.png';
+
 import { AlarmProvider } from './contesto/contestoAllarme';
 
-// Immagini
-// import fossaImage from './immagini/fossa2.png';
-// import forasacchi from './immagini/lacera2.png';
-// import nastro2 from './immagini/nastro_metalli_vert.png';
-// import vaglio from './immagini/vaglio1.png';
-// import nastro3 from './immagini/v_trasp1.png';
-// import nastro4 from './immagini/v_trasp2.png';
-// import pressa from './immagini/pressa.png';
-// import carro1 from './immagini/carro1.png';
+
 import c1 from './immagini/C1-272x218-cornice.png';
 import c2 from './immagini/C2-832x103.png';
 import c3 from './immagini/C3-94x548.png';
@@ -62,7 +54,7 @@ const App = () => {
       id: 'c3',
       backgroundImage: c3,
       style: { top: '5%', left: '39%', width: '6%', height: '68%', position: 'absolute',
-        ackgroundSize: 'cover',         // <--- IMPORTANTE
+        backgroundSize: 'cover',         // <--- IMPORTANTE
         backgroundPosition: 'center',    // Centra l'immagine
         backgroundRepeat: 'no-repeat',
 
@@ -73,7 +65,7 @@ const App = () => {
       id: 'c4',
       backgroundImage: c4,
       style: { top: '20%', left: '28%', width: '10%', height: '60%', position: 'absolute',
-        ackgroundSize: 'cover',         // <--- IMPORTANTE
+        backgroundSize: 'cover',         // <--- IMPORTANTE
         backgroundPosition: 'center',    // Centra l'immagine
         backgroundRepeat: 'no-repeat',
        },
@@ -86,7 +78,7 @@ const App = () => {
       id: 'c5',
       backgroundImage: c5,
       style: { top: '12%', left: '4%', width: '65%', height: '10%', position: 'absolute',
-        ackgroundSize: 'cover',         // <--- IMPORTANTE
+        backgroundSize: 'cover',         // <--- IMPORTANTE
         backgroundPosition: 'center',    // Centra l'immagine
         backgroundRepeat: 'no-repeat',
        },
@@ -99,7 +91,7 @@ const App = () => {
       id: 'c6',
       backgroundImage: c6,
       style: { top: '50%', left: '4%', width: '35%', height: '40%', position: 'absolute',
-        ackgroundSize: 'cover',         // <--- IMPORTANTE
+        backgroundSize: 'cover',         // <--- IMPORTANTE
         backgroundPosition: 'center',    // Centra l'immagine
         backgroundRepeat: 'no-repeat',
        },
@@ -112,7 +104,7 @@ const App = () => {
       id: 'c7',
       backgroundImage: c7,
       style: { top: '55%', left: '7%', width: '7%', height: '55%', position: 'absolute',
-        ackgroundSize: 'cover',         // <--- IMPORTANTE
+        backgroundSize: 'cover',         // <--- IMPORTANTE
         backgroundPosition: 'center',    // Centra l'immagine
         backgroundRepeat: 'no-repeat',
        },
@@ -125,7 +117,7 @@ const App = () => {
       id: 'c8',
       backgroundImage: c8,
       style: { top: '97%', left: '4%', width: '38%', height: '20%', position: 'absolute',
-        ackgroundSize: 'cover',         // <--- IMPORTANTE
+        backgroundSize: 'cover',         // <--- IMPORTANTE
         backgroundPosition: 'center',    // Centra l'immagine
         backgroundRepeat: 'no-repeat',
        },
